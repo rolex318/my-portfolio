@@ -57,7 +57,9 @@ justify-content: center;
 align-items: center;
 text-align: center;
 
+
 }
+
 .Profile-content img{
     width: 250px;
   
@@ -82,13 +84,13 @@ button:hover{
 
 #education{
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 #education h2{
     text-align: center;
     font-size: 2.5rem;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .education-card{
@@ -165,8 +167,8 @@ font-size: 16px;
     
 }
 #project{
-background-color: #00fffba0;
-
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(99,116,175,1) 100%, rgba(142,64,161,0.41789215686274506) 100%);
 }
 #project h2{
     font-size: 1.8rem;
@@ -191,10 +193,10 @@ background-color: #00fffba0;
     
     }
     .project-image img{
-        width: 50%;
-       height: auto;
+        width: 300px;
+       height:200px;
         object-fit: cover;
-       
+       margin-bottom: 10px;
     }
     .project-description{
         position: absolute;
@@ -235,12 +237,13 @@ background-color: #00fffba0;
     }
     #blog{ 
         padding: 50px 0;
-        background-color:#f4f4f9;
+        background: rgb(195,34,127);
+        background: radial-gradient(circle, rgba(195,34,127,1) 14%, rgba(142,87,196,1) 100%, rgba(142,64,161,0.41789215686274506) 100%);
         text-align: center;
     }
     #blog h2{
         font-size: 2.5rem;
-        color:#333;
+        color:#ffffff;
         margin-bottom: 40px;
     }
     .scroller-container{
@@ -360,7 +363,8 @@ background-color: #00fffba0;
     }
     .skills-section {
         text-align: center;
-        background-color: #63112f;
+        background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(18,69,126,1) 100%, rgba(142,64,161,0.41789215686274506) 100%);
         padding: 50px 20px;
       }
       
@@ -418,3 +422,4 @@ background-color: #00fffba0;
       .css-level {
         width: 80%; /* Adjust this percentage based on skill */
       }
+      
